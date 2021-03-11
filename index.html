@@ -5,19 +5,707 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coco</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://1.bp.blogspot.com/-tPhqYwlHiPI/YEe8Ho_hYFI/AAAAAAAAAEw/h1enlhVwKHohwf9eokHIiGl9GmWg_0dIgCLcBGAsYHQ/s16/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://drive.google.com/file/d/1h_bv7VNrGRsGf0-1vrN7DdkLcHT_sWz3/view?usp=sharing">
+  <style>
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{scroll-behavior: smooth;}
+body{
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden !important;
+  	background-color:#EEEEEE;
+}
+#first{
+    width: 100vw; height: 100vh;
+    background-image: url(https://1.bp.blogspot.com/-maC8m_i7TJA/YEe3ChVUYzI/AAAAAAAAACI/K_2-HssAL3o8zUX3WzvvRYBmUVsdowUGQCLcBGAsYHQ/s1920/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    position: relative;
+}
+
+.black_background{
+    width: 100%; height: 100%;
+    background-color: #0b1520;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+.first{
+    width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+.img-head{
+    width: 100px;
+    padding: 20px 0;
+    display: inline-block;
+}
+.img-head a{display: inline-block;}
+.img-head img{width: 100%; display: inline-block;}
+/* header nav{float: right; }
+header nav ul{list-style-type: none; display: flex; }
+header nav ul li{padding: 23px 15px;}
+header nav ul li a{color: white; font-size: 12px; font-weight: bold; letter-spacing: 1px;}
+header nav ul li a:hover{color: white; text-decoration: none;} */
+                                /* sacond nav */
+.header{background: #212529; position: fixed; top: 0; left: 0; z-index: 111; width: 100%; opacity: 0.8;}
+.header nav{float: right; }
+.header nav ul{list-style-type: none; display: flex; margin-bottom: -1rem;}
+.header nav ul li{padding: 20px 15px;}
+.header nav ul li a{color: white; font-size: 12px; font-weight: bold; letter-spacing: 1px;}
+.header nav ul li a:hover{color: white; text-decoration: none;}
+
+
+.first-content{
+    margin: 30vh auto;
+    text-align: center;
+}
+.first-content h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+}
+.first-content h1 div{
+    font-size: 65px;
+    font-weight: 600;
+}
+.first-content p{
+    color: #eee;
+    font-size: 16px;
+    line-height: 28px;
+    word-spacing: 2px;
+    font-weight: 300;
+}
+.slide-background{
+    background-color: #eee;
+    width: 145px;
+    height: 45px;
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 45px;
+    border-radius: 30px;
+    border: 2px solid #eee;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.blue-back{background-color:#1A237E ; border-color: #1A237E; height: 37px !important;}
+.blue-back a{color: #eee !important; left: 28px !important;}
+.white-back{background-color: #eee !important;}
+.blue-back:hover .color-white{color: #1A237E !important;}
+.color-white{top: -4px !important;}
+.slide-content{
+    width: 100%;
+    height: 100%;
+    background: #1A237E;
+    margin-left: -100%;
+    transition: all .4s;
+}
+.slide-background a{
+    position: absolute;
+    top: 0px;
+    left: 37px;
+    text-decoration: none;
+    color: #03083a;
+    font-weight: 400;
+}
+.slide-background:hover  .color-whitea{color: white;}
+.slide-background:hover .slide-content{
+    margin-left: 0%;
+}
+#services{
+    padding: 150px 0;
+}
+#services h1{font-size: 30px; }
+#services  h1 span{color: #333388;}
+#services p{font-size: 14px; color: #999;line-height: 1.8; margin-top: 30px;}
+.margin-70{margin: 70px auto 140px;}
+.cir{
+    width: 92px; height: 92px;
+    background-color: #eee;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.cir-content{
+    width: 0%; height: 0%;
+    margin: 46px auto;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #2576FD, #1A237E);
+    transition: all .4s;
+}
+.cir h1{
+    font-size: 40px !important; 
+    line-height: 92px;
+    position: absolute;
+    top: 0px; left: 25px;
+    color: #777;
+    transition: all .2s;
+    font-weight: 100;
+}
+.cir-hov:hover .cir-content{
+    width: 100%; height: 100%;
+    margin: 0 auto;
+}
+.cir-hov:hover .cir h1{color: #eee;}
+.cir-hov h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cir-hov h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(26, 26, 109);
+}
+.about-us{
+    padding: 10px 0px 35px;
+    background-image: url(https://1.bp.blogspot.com/-PeQUmUI8xzw/YEe4L_Dq7pI/AAAAAAAAAC8/1aWiFH8_LGgrB9FMfFwqsu495HjJp-eQwCLcBGAsYHQ/s1224/js.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 490px;
+    border: 1px solid #777;
+}
+.about-us h1{font-size: 50px !important; margin-top: 40px; color: brown;}
+.services-last{
+    width: 100vw; min-height: 850px;
+    background-image: url(https://1.bp.blogspot.com/-HEFnGBwz-S0/YEe3C2MkvCI/AAAAAAAAACM/DDNBv2Bq3W8aANUABYFJiQUvKj5tP5EvQCLcBGAsYHQ/s1000/bg6.jpg);
+    padding: 150px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 100px;
+    position: relative;
+}
+.services-last::before,.services-last::after{
+    content: "";
+    width: 0%; height: 0%;
+    position: absolute;
+    top: -2px;
+    z-index: 1;
+}
+.services-last::before{
+    border-right: 30vw solid transparent;
+    border-top: 50px solid #f9f9f9;
+    left: 0;
+}
+.services-last::after{
+    border-left: 70vw solid transparent;
+    border-top: 50px solid #f9f9f9;
+    right: 0;
+}
+.services-last-a::before,.services-last-a::after{
+    content: "";
+    width: 0%; height: 0%;
+    position: absolute;
+    bottom: -2px;
+    z-index: 1;
+}
+.services-last-a::before{
+    border-right: 70vw solid transparent;
+    border-bottom: 50px solid #f9f9f9;
+    left: 0;
+}
+.services-last-a::after{
+    border-left: 30vw solid transparent;
+    border-bottom: 50px solid #f9f9f9;
+    right: 0;
+}
+.services-last .first-s{
+    padding: 150px 0px;
+    width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+.services-last h1{color: #eee; font-weight: 300 !important ;}
+.services-last h1 span{color: white !important; font-weight: 500 !important;}
+.card-f{
+    width: 23%;
+    height: 400px;
+    /* border: 1px solid #777; */
+    margin-right: 2%;
+    padding-top: 40px;
+    position: relative;
+}
+.card-f h1{
+    border: 1px dashed #eee;
+    display: inline-block;
+    width: 80px; height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    color: blue;
+    margin-bottom: 25px;
+}
+.card-f .card-c{
+    width: 100%;
+    height: 200px;
+    background: #eee;
+    border-radius: 16px;
+    transition: all .2s;
+}
+.card-f .card-c h5{
+    padding-top: 40px;
+    font-size: 16px;
+}
+.card-f img{
+    width: 70%;
+    position: absolute;
+    top: 50px; left: 180px;
+    transform: rotateX(180deg);
+}
+.card-f:nth-of-type(even){
+    margin-top: 50px;
+}
+.card-f .card-c:hover{
+    background: #1A237E;
+    color: white !important;
+}
+#portfolio{
+    width: 100%;
+    /* border: 1px solid #777; */
+    padding-bottom: 100px;
+}
+.heading h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.heading h1 span{font-weight: 500;}
+.heading p{color: #777; margin-bottom: 40px; font-size: 15px;}
+#portfolio button{
+    background: linear-gradient(to right, #1A237E, #2576FD);
+    width: 80px;
+    font-size: 12px; color: #eee; padding:5px 10px;
+    border: none; border-radius: 20px; cursor: pointer;
+    box-shadow: 3px 3px 10px #777;
+}
+.but-all{
+    display: flex;
+    justify-content: space-evenly;
+}
+.port-all{margin: 50px auto 100px; }
+.portfolio-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+.portfolio-img .img-pot{
+    width: 23%;
+    position: relative;
+}
+.portfolio-img .img-pot img{
+    width: 100%;
+}
+.portfolio-img .img-pot .img-front{
+    width: 92%; height: 92%;
+    background: transparent;
+    padding: 30px;
+    position: absolute;
+    top: 4%; left: 4%;
+    transition: all .3s;
+    visibility: hidden;
+    display: block;
+} 
+.portfolio-img .img-pot .img-front .fas{transition: none;}
+.portfolio-img .img-pot:hover .img-front{
+    visibility: visible;
+    background-color: #eee;
+}
+.portfolio-img .img-pot .img-front p{
+    color: #1A237E;
+    font-weight: 400;
+    font-size: 13px;
+}
+.portfolio-img .img-pot .img-front span.icon{
+    width: 45px; height: 45px;
+    border: 1px dotted blue;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 12px 14px;
+    position: absolute;
+    bottom: 10%; right: 10%;
+}
+
+.left-pic-img{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 3px 8px #777;
+    background-image: url(https://1.bp.blogspot.com/-lRLFq0HWRJM/YEe2_DH3W-I/AAAAAAAAABs/F8FMXJW6TTYdst7GlzoAnQEGO71_ICHsQCLcBGAsYHQ/s1000/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.left-pic-img img{
+    width: 100%;
+}
+.right-text{
+    padding-left: 25px;
+}
+.cir-2{
+    width: 70px; height: 70px;
+    /* background: #777; */
+    float:  left ;
+    margin-right: 25px;
+    border-radius: 50%;
+    position: relative;
+}
+.cir-2:hover .cir-content-2{
+    width: 100%; height: 100%;
+    margin: 0 auto;
+}
+.cir-content-2{
+    width: 0%; height: 0%;
+    background: linear-gradient(to bottom right, #2576FD, #1A237E);
+    margin: 50% auto;
+    border-radius: 50%;
+    transition: all .4s;
+}
+.cir-2 h1{
+    position: absolute;
+    top: 24%; left: 20%;
+    color: #2576FD;
+    transition: all .2s;
+} .fas{transition: all .4s;}
+.cir-2:hover  .fas{
+    color: white;
+}
+
+.article-div{
+    width: calc(100% - 100px);
+    float: left ;
+    padding-bottom: 25px;
+}
+.article-div h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.article-div p{
+    font-size: 14px;
+    color: #777;
+    line-height: 25px;
+}
+#team{
+    padding: 60px 0px;
+}
+.team-up h2 span{ font-weight: 100; }
+.team-up  p{ color: #777; }
+.team-member{display: flex; flex-wrap: wrap; justify-content: space-evenly; margin: 80px auto;}
+.team-member .members{ width: 21%; }
+.team-member .members .img{width: 100%; position: relative;}
+.hover-blue{
+    width: 100%;
+    height: 100%;
+    position: absolute; top: 0; left: 0;
+    background: linear-gradient(to bottom, #1A237E, #2576FD);
+    opacity: 0;
+    transition: all .4s;
+}
+.members:hover .hover-blue{opacity: 0.8;}
+.members-icon{
+    width: 100%; height: 100%; 
+    position: absolute; 
+    top: 0; left: 0;
+}
+.members-icon a{
+    color: #eee;
+    margin: 290px 20px 0px;
+    display: inline-block;
+    transition: all 0.2s;
+    visibility: hidden;
+}
+.members:hover .members-icon a{
+    margin: 160px 20px 0px;
+    visibility: visible;
+}
+.team-member .members img{width: 100%; display: block;}
+.clint-say{
+    background-image: url(https://1.bp.blogspot.com/-maC8m_i7TJA/YEe3ChVUYzI/AAAAAAAAACI/K_2-HssAL3o8zUX3WzvvRYBmUVsdowUGQCLcBGAsYHQ/s1920/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%; min-height: 700px;
+    position: relative;
+}
+.clint-says{
+    padding: 110px 0;
+}
+.clint-box-p{display: flex; flex-wrap: wrap; justify-content: space-evenly; margin-top: 50px;}
+.clint-box{
+    width: 28%; 
+    border: 1px solid #eee;
+    background-color: #eee;
+    border-radius: 18px;
+    padding: 40px 30px 25px;
+}
+.clint-box .img-c{
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 30px;
+    opacity: 0.4;
+}
+.clint-box p{
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.down-clint{margin-top: 23px;}
+.clint-pic{
+    width: 40px; height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 25px;
+    float: left;
+}
+.clint-pic img{width: 100%;}
+.clint-name{
+    width: calc(100% - 50px);
+    text-align: left;
+}
+.clint-say::after, .clint-say::before{
+    content: "";
+    width: 0; height: 0;
+    position: absolute;  top: -2px;
+    z-index: 1;
+}
+.clint-say::before{
+    border-right: 30vw solid transparent;
+    border-top: 50px solid #f9f9f9;
+    left: 0;
+}
+.clint-say::after{
+    border-left: 70vw solid transparent;
+    border-top: 50px solid #f9f9f9;
+    right: 0;
+}
+#price{
+    width: 100%;
+    padding: 110px 0px;
+}
+.price-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.table-p{
+    width: 23%; 
+    padding: 40px 0px;
+    /* border: 1px solid #777; */
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0,.3);
+}
+.table-p p{font-size: 13px; font-weight: 13px; counter-reset: #777;}
+.first-pa{
+    margin-top: 25px;
+    display: block;
+}
+#blog{
+    width: 100%;
+    padding: 50px 0px ;
+}
+.box-ppaa{justify-content: space-between; margin-top: 90px; margin-bottom: 130px;}
+.box-pp{
+    width: 30%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.box-pp .img{width: 100%; height: 207px; overflow: hidden; margin-bottom: 20px;}
+.box-pp .img:hover .img-hov{width: 112%; margin: -2% 0% -2% -4%;}
+.box-pp .img img{width: 100%; display: block;  transition: all .5s; }
+a.date{
+    color: #999;
+    font-size: 10px;
+    font-style: italic;
+    display: block;
+    margin-bottom: 6px;
+}
+a.read-more{
+    color: black;
+}
+.fa-chevron-right{
+    margin-left: -10px;
+    visibility: hidden ;
+    transition: all .2s;
+}a.read-more:hover{color: blue;}
+a.read-more:hover .fa-chevron-right{
+    margin-left: 5px;
+    color: blue;
+    visibility: visible;
+}
+.work-back{
+    width: 100%; min-height: 420px;
+    background-image: url(https://1.bp.blogspot.com/-v0DJqtLlWFU/YEe3CXwDxYI/AAAAAAAAACE/QUxTA9fA4Ok0WF2SHYKqQH5GtE5SEK0gACLcBGAsYHQ/s1920/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 30px;
+}
+.black_background11{opacity: 0.55;}
+.want-work{
+    width: calc(100% - 60px); height: 360px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 50px 0px;
+}
+.want-work11{
+    position: absolute;
+    top: 30px; left: 30px;
+    width: calc(100% - 60px); height: 360px;
+    padding: 90px 0px 10px;
+}
+.want-work11 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.want-work11 h4{color: #eee; display: inline-block; margin-bottom: 25px;}
+#contact{
+    padding: 50px 0px;
+}
+#contact article .icon-left .far,
+#contact article .icon-left .fas{
+    font-size: 30px;
+}
+#contact article .icon-left{
+    float: left;
+    margin-right: 25px;
+    width: 29px;
+}
+#contact article{margin: 40px auto;}
+input[name=name],input[name=email]{width: 48%; border: none;}
+input[name=sub]{width: 97%; margin: 15px auto; border: none;}
+textarea[name=msg]{width: 97%; border: none;}
+.send-message{
+    position: absolute;
+    top: -22px; left: -2px;
+    background: none;
+    color: #eee;
+    padding: 20px 45px;
+}
+.send-mm:hover .send-message{color: black;}
+footer{
+    background: #111;
+    padding: 100px 0px 40px;
+    position: relative;
+}
+footer::after,footer::before{
+    content: "";
+    width: 0%; height: 0%;
+    position: absolute;
+    top: -2px;
+    border-bottom: 100px solid transparent;
+}
+footer::before{
+    border-right: 50vw solid #eee;
+    right: 0;
+}
+footer::after{
+    border-left: 50vw solid #eee;
+    left: 0;
+}
+.footer-logo{
+    width: 100px;
+    margin: 0 auto;
+}
+.footer-logo img{width: 100%;}
+.social-logo{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+}
+.social-logo a{color: white;}
+.lab-menue{
+    color: #eee; position: absolute;
+    font-size: 30px; top: 25px; right: 50px;
+    visibility: hidden;
+}
+#nav-list{visibility: hidden;}
+
+
+
+
+@media screen and (max-width: 768px){
+    .header{opacity: 1;}
+    .header nav{
+        position: absolute; left: 15%; top: 100%;
+        background-color: #0b1520; 
+        width: 70%;  height: 5%;
+        visibility: hidden; overflow: hidden;
+        transition: all .5s;
+    }
+    #nav-list:checked ~ nav{
+        visibility: visible;
+        padding: 20px;
+        height: 670%;
+    }
+    .lab-menue{visibility: visible;}
+    .header nav ul{display: inline-block; width: 100%; text-align: center;}
+    .header nav ul li a{font-size: 16px;}
+    .first-content h1{font-size: 30px;}
+    .first-content h1 div{font-size: 45px;}
+    #first{background-position: 50% 0% !important;}
+    .card-f{width: 100%;}
+    .services-last{min-height: 2150px;}
+    .card-f img{display: none;}
+    .portfolio-img .img-pot{width: 100%;}
+    .right-text{margin-top: 45px; padding-left: 0px;}
+    .team-member .members{width: 35%;}
+    .clint-box{width: 44%; margin: 3%;}
+    .clint-say{min-height: 1100px;}
+    .table-p{width: 100%; margin: 5% auto !important;}
+    .box-pp{width: 100%; margin: 10% auto;}
+    .box-pp .img{height: 360px;}
+    .want-work11 h1{font-size: 25px;}
+    .work-back{background-position: 50% 0% !important; 
+        background-attachment: scroll !important;}
+        input[name=name], input[name=email]{
+            width: 97%; margin-top: 15px;
+        }
+        .social-logo{width: 65%;}
+
+}
+
+@media Screen and (max-width: 425px){
+    .lab-menue {font-size: 20px;}
+    .first-content h1{font-size: 14px;}
+    .first-content h1 div{font-size: 25px; margin-top: 15px;}
+    #services h1{font-size: 22px;}
+    .card-f .card-c{width: 90%; margin-left: auto; margin-right: auto;}
+    .portfolio-img .img-pot img{width: 95%; margin-left: auto; margin-right: auto; overflow: hidden; margin-bottom: 30px;}
+    .portfolio-img .img-pot .img-front{left: 7%; top: 6%; height: 80%; width: 80%;}
+    .team-member .members{width: 100%; margin-bottom: 50px;}
+    .clint-box{width: 90%;}
+    .clint-say{min-height: 1300px;}
+    .box-pp{width: 85%;}
+    .box-pp .img{height: 230px;}
+    .social-logo{width: 85%;}
+
+}
+@media Screen and (max-width: 375px){
+    .box-pp .img{height: 190px;}
+    .call-action h5{font-size: 18px;}
+}
+  </style>
+<link rel="me" href="https://www.blogger.com/profile/03358899066048946109" />
 </head>
 <body>
     <!-- -------------header and nav sacond-------------------- -->
     <div class="header">
     <div class="container">
         <div class="img-head">
-            <a href="index.html"><img src="img/logo-light.png" alt="sorry"></a>
+            <a href="index.html"><img src="https://1.bp.blogspot.com/-Dw1E03zVqFs/YEe5UklnFyI/AAAAAAAAADE/wPnEZ5AWNLEAiuhFHP6dtZ9HvHeogDDeACEwYBhgLKtQDAL1OcqxVWmds2J8Bvh6KJ9AdL0tV2sJ3na67U5qXWhGbZxNVyfpvW1wE5ZrfF92UbiuyfYz0T00oQWjW2wqjAylO0RNRahz-ALx7_lfG-SJM35PCPb1zUA3mIBe8LQTu4zNwpkoQUz_sJScS2kcbdN8I4Qq5kbFSuT0BFH2lK9bQpdnxBQsY_BlYzWBd_qj9NN9t_nBNyNjVbsYfjHsygGWmFVCJSY-pv9x3Its-CzacTJqgMZ9kGzKknwocG8gqRFPUS61cuIXyNfPrerUUi1QV4fHfhT4LWv8MYIxe_LbAgow84ypy-08Juc1vU4Ls5lFcHBfe5dxtos6i1Y6HcL2wk0Tq9VVOj3W268GxyQqI6XV73Srw7hqRB2rOsFeNMC6HboWL9X3Pv6ggFIo6phf0kb4wTorag2qi-tVPgwTxwy_RpyZC-S-6E0zstYMAON_RSz8MARs4mFNiBSCnLo7pTi5gVoqsj9IqnO2KsTqaaZugEEc56zioj09sDPG6AT_J-UAqUm81b1fW1D_eCFfYEBbqXQjsd_3cC2kaaF5j5PnOW3LGmYvKGKNepIuToFUkfp230goPeuOtqcDQrlG1olxy551tJr62WNiGWjcSlWiNMK_3noIG/s150/logo-light.png" alt="sorry"></a>
         </div>
         <label for="nav-list" class="lab-menue"><i class="fas fa-bars"></i></label>
         <input type="checkbox" name="nav-list" id="nav-list">
@@ -130,7 +818,7 @@
                     <div class="row card-f-f">
                         <div class="card-f">
                             <h1>A</h1>
-                            <img src="img/arrow.png" alt="sorry">
+                            <img src="https://1.bp.blogspot.com/-1wrvPj7uh2g/YEe3AyiTQjI/AAAAAAAAAB4/6PX2niuBYEU4Yhgth2ClbUGvluQ5uqJZQCLcBGAsYHQ/s300/arrow.png" alt="sorry">
                             <div class="card-c">
                                 <div class="container">
                                 <h5>Ideas</h5>
@@ -140,7 +828,7 @@
                         </div>
                         <div class="card-f">
                             <h1>A</h1>
-                            <img src="img/arrow.png" alt="sorry" style="transform: rotateX(360deg);">
+                            <img src="https://1.bp.blogspot.com/-1wrvPj7uh2g/YEe3AyiTQjI/AAAAAAAAAB4/6PX2niuBYEU4Yhgth2ClbUGvluQ5uqJZQCLcBGAsYHQ/s300/arrow.png" alt="sorry" style="transform: rotateX(360deg);">
                             <div class="card-c">
                                 <div class="container">
                                 <h5>Planning</h5>
@@ -150,7 +838,7 @@
                         </div>
                         <div class="card-f">
                             <h1>A</h1>
-                            <img src="img/arrow.png" alt="sorry" >
+                            <img src="https://1.bp.blogspot.com/-1wrvPj7uh2g/YEe3AyiTQjI/AAAAAAAAAB4/6PX2niuBYEU4Yhgth2ClbUGvluQ5uqJZQCLcBGAsYHQ/s300/arrow.png" alt="sorry" >
                             <div class="card-c">
                                 <div class="container">
                                 <h5>Development</h5>
@@ -195,28 +883,28 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class=" portfolio-img">
-                        <div class="img-pot"><img src="img/portfolio/1.jpg" alt="sorry">
+                        <div class="img-pot"><img src="https://1.bp.blogspot.com/-Z_GxwZRtNzg/YEe6ApBIIiI/AAAAAAAAADY/gqdd5P3RQggojPbD_mSHJSF8a8ZWSl2eQCLcBGAsYHQ/s864/4.jpg" alt="sorry">
                             <div class="img-front">
                                 <p>Logo | Branding</p>
                                 <h6>Creative Web Design</h6>
                                 <span class="icon"><a href=""><i class="fas fa-long-arrow-alt-right"></i></a></span>
                             </div>
                         </div>
-                        <div class="img-pot"><img src="img/portfolio/2.jpg" alt="sorry">
+                        <div class="img-pot"><img src="https://1.bp.blogspot.com/-Z0q-a7Ugq3A/YEe6AL6ICNI/AAAAAAAAADQ/piMG0oHWDDIQGD7zWtSunbQu_wPi89fkACLcBGAsYHQ/s1000/1.jpg" alt="sorry">
                             <div class="img-front">
                                 <p>Logo | Branding</p>
                                 <h6>Creative Web Design</h6>
                                 <span class="icon"><a href=""><i class="fas fa-long-arrow-alt-right"></i></a></span>
                             </div>
                         </div>
-                        <div class="img-pot"><img src="img/portfolio/3.jpg" alt="sorry">
+                        <div class="img-pot"><img src="https://1.bp.blogspot.com/-aSDJn6lVklc/YEe6AB6aDLI/AAAAAAAAADU/3jDk-b3a9ls8mt82kgqKTFF6d2x__FuBACLcBGAsYHQ/s800/2.jpg" alt="sorry">
                             <div class="img-front">
                                 <p>Logo | Branding</p>
                                 <h6>Creative Web Design</h6>
                                 <span class="icon"><a href=""><i class="fas fa-long-arrow-alt-right"></i></a></span>
                             </div>
                         </div>
-                        <div class="img-pot"><img src="img/portfolio/4.jpg" alt="sorry">
+                        <div class="img-pot"><img src="https://1.bp.blogspot.com/-NSXt3qOQsBE/YEe5_5IIXGI/AAAAAAAAADM/o4PvA61kr_gXMYmILEy_S1PRj_48bpaMACLcBGAsYHQ/s800/3.jpg" alt="sorry">
                             <div class="img-front">
                                 <p>Logo | Branding</p>
                                 <h6>Creative Web Design</h6>
@@ -229,28 +917,28 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class=" portfolio-img">
-                        <div class="img-pot"><img src="img/portfolio/5.jpg" alt="sorry">
+                        <div class="img-pot"><img src="https://1.bp.blogspot.com/-UfEz7ZTC5h4/YEe6AoaNFBI/AAAAAAAAADc/e-MFC30da-cN28kYXqAR7dq1oSX3dELfQCLcBGAsYHQ/s926/5.jpg" alt="sorry">
                             <div class="img-front">
                                 <p>Logo | Branding</p>
                                 <h6>Creative Web Design</h6>
                                 <span class="icon"><a href=""><i class="fas fa-long-arrow-alt-right"></i></a></span>
                             </div>
                         </div>
-                        <div class="img-pot"><img src="img/portfolio/6.jpg" alt="sorry">
+                        <div class="img-pot"><img src="https://1.bp.blogspot.com/-s04gPjmjeO8/YEe6AyP6ouI/AAAAAAAAADg/J07LKuUEd1wgiQUWTVnV82ojujmhUji1wCLcBGAsYHQ/s1000/6.jpg" alt="sorry">
                             <div class="img-front">
                                 <p>Logo | Branding</p>
                                 <h6>Creative Web Design</h6>
                                 <span class="icon"><a href=""><i class="fas fa-long-arrow-alt-right"></i></a></span>
                             </div>
                         </div>
-                        <div class="img-pot"><img src="img/portfolio/7.jpg" alt="sorry">
+                        <div class="img-pot"><img src="https://1.bp.blogspot.com/-h6CyI1aFR0U/YEe6Bebn8HI/AAAAAAAAADk/zF_N1XRD8ssWOHoqOL8yr6_LgORwOAr-QCLcBGAsYHQ/s800/7.jpg" alt="sorry">
                             <div class="img-front">
                                 <p>Logo | Branding</p>
                                 <h6>Creative Web Design</h6>
                                 <span class="icon"><a href=""><i class="fas fa-long-arrow-alt-right"></i></a></span>
                             </div>
                         </div>
-                        <div class="img-pot"><img src="img/portfolio/8.jpg" alt="sorry">
+                        <div class="img-pot"><img src="https://1.bp.blogspot.com/-Uj_8ejpnqo0/YEe6Bp0BsrI/AAAAAAAAADo/LQWieQP4dLgBmO9pgMK6pkUsIQCNZf1eACLcBGAsYHQ/s800/8.jpg" alt="sorry">
                             <div class="img-front">
                                 <p>Logo | Branding</p>
                                 <h6>Creative Web Design</h6>
@@ -315,7 +1003,7 @@
         <div class="team-member text-center">
             <div class="members">
                 <div class="img">
-                <img src="img/team/1.jpg" alt="sorry">
+                <img src="https://1.bp.blogspot.com/-42zaaNoTy8k/YEe6s0Nm9pI/AAAAAAAAAEI/O9vK4JS9zLQulq8LEHvXPUa1HJZuexZ6ACLcBGAsYHQ/s670/4.jpg" alt="sorry">
                 <div class="hover-blue"></div>
                 <div class="members-icon">
                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -328,7 +1016,7 @@
             </div>
             <div class="members">
                 <div class="img">
-                    <img src="img/team/2.jpg" alt="sorry">
+                    <img src="https://1.bp.blogspot.com/-xwxTy5MxpjU/YEe6sBkCRzI/AAAAAAAAAD8/J-1qQckVYz0J_CBjCFlF4jIRHvXPaDGUQCLcBGAsYHQ/s670/3.jpg" alt="sorry">
                     <div class="hover-blue"></div>
                     <div class="members-icon">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -341,7 +1029,7 @@
             </div>
             <div class="members">
                 <div class="img">
-                    <img src="img/team/3.jpg" alt="sorry">
+                    <img src="https://1.bp.blogspot.com/-Zj0pEiDo0HE/YEe6sfNus0I/AAAAAAAAAEE/LIMyPuLNdc8Jclu9IDLQOv4Ma39xobFFQCLcBGAsYHQ/s670/2.jpg" alt="sorry">
                     <div class="hover-blue"></div>
                     <div class="members-icon">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -354,7 +1042,7 @@
             </div>
             <div class="members">
                 <div class="img">
-                    <img src="img/team/4.jpg" alt="sorry">
+                    <img src="https://1.bp.blogspot.com/-U_KHkTvLKxw/YEe6sAjoVWI/AAAAAAAAAEA/zPMunPqR0A0PXTvB2Aa7qxHv5MQnIds2QCLcBGAsYHQ/s670/1.jpg" alt="sorry">
                     <div class="hover-blue"></div>
                     <div class="members-icon">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -375,11 +1063,11 @@
                 </div>
                 <div class="container clint-box-p">
                     <div class="clint-box">
-                        <div><img src="img/quot.png" alt="sorry" class="img-c"></div>
+                        <div><img src="https://1.bp.blogspot.com/-oj2Q5nnmEOI/YEe3Etnv3SI/AAAAAAAAACc/xQqDToYtt_492S9F-NJuP-VKHpCNk7lRgCLcBGAsYHQ/s82/quot.png" alt="sorry" class="img-c"></div>
                         <p>Lorem Ipsum is simply dummy text a galley of type and scrambled it to make a type specimen book.</p>
                         <div class="down-clint">
                             <div class="clint-pic">
-                                <img src="img/clients/4.jpg" alt="sorry">
+                                <img src="https://1.bp.blogspot.com/-P7oiiP_hkS8/YEe7N8uHVCI/AAAAAAAAAEU/yNMmGMytB9wrcIk-LGZ5qjwVZit-5iotgCLcBGAsYHQ/s670/2.jpg" alt="sorry">
                             </div>
                             <div class="clint-name">
                                 <h6 style="font-size: 14px;">Alex Smith</h6>
@@ -388,11 +1076,11 @@
                         </div>
                     </div>
                     <div class="clint-box">
-                        <div><img src="img/quot.png" alt="sorry" class="img-c"></div>
+                        <div><img src="https://1.bp.blogspot.com/-oj2Q5nnmEOI/YEe3Etnv3SI/AAAAAAAAACc/xQqDToYtt_492S9F-NJuP-VKHpCNk7lRgCLcBGAsYHQ/s82/quot.png" alt="sorry" class="img-c"></div>
                         <p>Lorem Ipsum is simply dummy text a galley of type and scrambled it to make a type specimen book.</p>
                         <div class="down-clint">
                             <div class="clint-pic">
-                                <img src="img/clients/1.jpg" alt="sorry">
+                                <img src="https://1.bp.blogspot.com/-A0s0rdEU1Qc/YEe7O0sH0KI/AAAAAAAAAEg/PqHp4mbEJ2oLYULzuBQvnuJ5FQN5YHbrQCLcBGAsYHQ/s670/4.jpg" alt="sorry">
                             </div>
                             <div class="clint-name">
                                 <h6 style="font-size: 14px;">Alex Smith</h6>
@@ -401,11 +1089,11 @@
                         </div>
                     </div>
                     <div class="clint-box">
-                        <div><img src="img/quot.png" alt="sorry" class="img-c"></div>
+                        <div><img src="https://1.bp.blogspot.com/-oj2Q5nnmEOI/YEe3Etnv3SI/AAAAAAAAACc/xQqDToYtt_492S9F-NJuP-VKHpCNk7lRgCLcBGAsYHQ/s82/quot.png" alt="sorry" class="img-c"></div>
                         <p>Lorem Ipsum is simply dummy text a galley of type and scrambled it to make a type specimen book.</p>
                         <div class="down-clint">
                             <div class="clint-pic">
-                                <img src="img/clients/3.jpg" alt="sorry">
+                                <img src="https://1.bp.blogspot.com/-hNMa_Tm3Q9I/YEe7N0w0HkI/AAAAAAAAAEc/ykvo5xTqI8M-uRLw3IGqjzoePJa-inqKgCLcBGAsYHQ/s670/1.jpg" alt="sorry">
                             </div>
                             <div class="clint-name">
                                 <h6 style="font-size: 14px;">Alex Smith</h6>
@@ -497,21 +1185,21 @@
             </div>
             <div class="row box-ppaa">
                 <div class="box-pp text-left">
-                    <div class="img"><img src="img/blog/1.jpg" alt="No Images" class="img-hov"></div>
+                    <div class="img"><img src="https://1.bp.blogspot.com/-A8HQpyWPP58/YEe8rBNnK_I/AAAAAAAAAFA/kOVJkDcD5_syyY5KjoqLwKs_-njhU_uWwCLcBGAsYHQ/s500/3.jpg" alt="No Images" class="img-hov"></div>
                     <a href="" class="date " >By : Admin 06 Aug 2017</a>
                     <h6>48 Best WordPress Themes</h6>
                     <p style="color: #999;">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever</p>
                     <a href="" style="font-size: 13px;" class="read-more">Read More <i class="fas fa-chevron-right"></i></a>
                 </div>
                 <div class="box-pp text-left">
-                    <div class="img"><img src="img/blog/2.jpg" alt="No Images" class="img-hov"></div>
+                    <div class="img"><img src="https://1.bp.blogspot.com/-arc3NUR8n8k/YEe8rDDCpSI/AAAAAAAAAE8/lk6DLxjUUUUhdHPctJmjxgmwHcTTGpF6QCLcBGAsYHQ/s500/2.jpg" alt="No Images" class="img-hov"></div>
                     <a href="" class="date " >By : Admin 06 Aug 2017</a>
                     <h6>48 Best WordPress Themes</h6>
                     <p style="color: #999;">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever</p>
                     <a href="" style="font-size: 13px;" class="read-more">Read More <i class="fas fa-chevron-right"></i></a>
                 </div>
                 <div class="box-pp text-left">
-                    <div class="img"><img src="img/blog/3.jpg" alt="No Images" class="img-hov"></div>
+                    <div class="img"><img src="https://1.bp.blogspot.com/-oPfM56H1sRI/YEe8q57oCBI/AAAAAAAAAE4/BvOeTlWW7HsPzET4gSLKslQYXZ38WNMPQCLcBGAsYHQ/s500/1.jpg" alt="No Images" class="img-hov"></div>
                     <a href="" class="date " >By : Admin 06 Aug 2017</a>
                     <h6>48 Best WordPress Themes</h6>
                     <p style="color: #999;">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever</p>
@@ -585,7 +1273,7 @@
     </div>
     <!-- -----------footer----------- -->
     <footer class="text-center">
-        <div class="footer-logo"><a href="index.html"><img src="img/logo-light.png" alt="logo"></a></div>
+        <div class="footer-logo"><a href="index.html"><img src="https://1.bp.blogspot.com/-zAvN_S0-DTk/YEe3EIRouaI/AAAAAAAAACY/9Hu9DdY5WaQ3WazAJmAve90Cwfa1WJWGwCLcBGAsYHQ/s150/logo-light.png" alt="logo"></a></div>
         <div class="social-logo">
             <a href="#0"><i class="fab fa-facebook-f"></i></a>
             <a href="#0"><i class="fab fa-twitter"></i></a>
